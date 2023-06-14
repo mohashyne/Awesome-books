@@ -1,163 +1,171 @@
 body {
-    font-size: 1.6rem;
-    margin: 0 auto;
+  font-size: 1.6rem;
+  margin: 0 auto;
 }
 
 html {
-    /* 62.5% of 16px = 10px */
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 /* Header */
 header {
-    color: black;
-    padding: 10px;
+  color: black;
+  padding: 10px;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 /* Navigation */
 nav {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 3px solid #ccc;
-    border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+}
+
+.time {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
 }
 
 ul {
-    list-style: none;
-    padding-left: 0.1rem;
-    display: flex;
-    gap: 1rem;
+  list-style: none;
+  padding-left: 0.1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 li {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 nav ul {
-    display: flex;
+  display: flex;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+  display: inline;
+  margin-right: 10px;
 }
 
 nav ul li a {
-    color: #111;
-    text-decoration: none;
+  color: #111;
+  text-decoration: none;
 }
 
 h1 {
-    text-align: center;
-    font-size: 3.2rem;
-    margin: 0;
-    padding: 1rem;
+  text-align: center;
+  font-size: 3.2rem;
+  margin: 0;
+  padding: 1rem;
 }
 
 h2 {
-    font-size: 3.2rem;
-    text-align: center;
-    margin: 0;
-    padding: 1rem;
+  font-size: 3.2rem;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
 }
 
 .book-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 44rem;
-    gap: 20rem;
-    border-radius: 10px;
-    padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 44rem;
+  gap: 20rem;
+  border-radius: 10px;
+  padding: 0 5px;
 }
 
 .book-list:nth-child(odd) {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 /* Buttons */
 button {
-    border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1.6rem;
-    width: 8rem;
-    cursor: pointer;
-    border-radius: 5px;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.6rem;
+  width: 8rem;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 #add {
-    position: relative;
-    left: 15rem;
+  position: relative;
+  left: 15rem;
 }
 
 /* Form */
 .book-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 23rem;
-    margin: 3rem auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 23rem;
+  margin: 3rem auto;
+  text-align: center;
 }
 
 .items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0.5rem auto;
-    max-width: 46rem;
-    border: 3px solid grey;
-    height: 100%;
-    flex-direction: column;
-    overflow: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.5rem auto;
+  max-width: 46rem;
+  border: 3px solid grey;
+  height: 100%;
+  flex-direction: column;
+  overflow: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 input[type=text],
 input[type=text]:focus {
-    max-width: 50rem;
+  max-width: 50rem;
 }
 
 .remove {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 input {
-    margin: 0.5rem 0;
-    padding: 0.5rem;
-    font-size: 1.6rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 1.6rem;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 58rem;
-    margin: 3rem auto;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 58rem;
+  margin: 3rem auto;
+  text-align: center;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 /* Footer */
 footer {
-    color: black;
-    text-align: center;
-    border: 3px solid #ccc;
-    border-radius: 10px;
-    margin: 2rem;
+  color: black;
+  text-align: center;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  margin: 2rem;
 }
