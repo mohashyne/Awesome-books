@@ -1,4 +1,16 @@
 {
+  "settings": {
+  "import/resolver": {
+    "node": {
+      "extensions": [
+        ".js",
+        ".jsx",
+        ".ts",
+        ".tsx"
+      ]
+    }
+  }
+},
   "env": {
     "browser": true,
     "es6": true,
@@ -17,7 +29,6 @@
   },
   "ignorePatterns": [
     "build/",
-    "node_modules/",
     "dist/"
   ]
 }

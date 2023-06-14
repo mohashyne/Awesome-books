@@ -67,5 +67,4 @@ class BookCollection {
   }
 }
 
-BookCollection.init();
 export default BookCollection;

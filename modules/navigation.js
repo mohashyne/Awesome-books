@@ -1,4 +1,4 @@
-function setupNavigation() {
+const setupNavigation = () => {
   const navList = document.querySelector('#nav_list');
   const navAdd = document.querySelector('#nav_add');
   const navContact = document.querySelector('#nav_contact');
@@ -23,6 +23,6 @@ function setupNavigation() {
     form.classList.add('hidden');
     list.classList.add('hidden');
   });
-}
+};
 
 export default setupNavigation;
