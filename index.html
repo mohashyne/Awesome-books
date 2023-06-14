@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Aminu Salihu & Glauber Bannwart">
+    <title>Awesome Book Store - The Readers #1 Online Marketplace</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <nav class="navigation">
+        <h1><a href="#books-list">Awesome</a></h1>
+        <ul>
+            <li><a id="nav_list" href="#books-list">List</a></li>
+            <li><a id="nav_add" href="#add-book">Add New</a></li>
+            <li><a id="nav_contact" href="#contact-info">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>All awesome Books</h1>
+</header>
+
+<main id="book-app">
+    <!-- Book list Added using Javascript -->
+    <div id="itemList" class="items">
+
+
+    </div>
+
+    <!-- Form/Input section -->
+    <form id="form" class="book-form hidden">
+        <h2 class="form-heading">Add  a new book</h2>
+        <input type="text" id="book-title" name="title" placeholder="Book Title">
+        <input type="text" id="book-author" name="author" placeholder="Book Author">
+        <button type="submit" id="add">Add</button>
+    </form>
+
+</main>
+
+
+
+<!-- Contact info section -->
+<section id="contactsection" class="contact hidden">
+    <h2>Contact Information</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+        blanditiis odio optio rerum vitae voluptate</p>
+    <ul>
+        <li><a href="mailto:">Our e-mail mail@email.com</a></li>
+        <li><a href="tel:">Our phone number: 123456789</a></li>
+        <li>
+            <address>
+                Our address:
+                123 Street Name
+                City, State 12345
+                Country
+            </address>
+        </li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy;Copyright 2023 <a href=""> The Readers </a> - All Rights Reserved</p>
+</footer>
+
+<script src="index.js"  type="module"></script>
+</body>
+</html>

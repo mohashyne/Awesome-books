@@ -1,0 +1,21 @@
+{
+  "name": "awesome-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohashyne/Awesome-books.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohashyne/Awesome-books/issues"
+  },
+  "homepage": "https://github.com/mohashyne/Awesome-books#readme"
+}
