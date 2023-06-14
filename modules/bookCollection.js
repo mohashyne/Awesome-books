@@ -1,4 +1,4 @@
-export class BookCollection {
+   class BookCollection {
   static init() {
     this.addBookForm = document.querySelector('.book-form');
     this.bookShelf = document.querySelector('.items');
@@ -66,3 +66,6 @@ export class BookCollection {
     }
   }
 }
+
+BookCollection.init();
+export default BookCollection;

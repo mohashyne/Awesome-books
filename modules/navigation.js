@@ -1,4 +1,4 @@
-export function setupNavigation() {
+  function setupNavigation() {
   const navList = document.querySelector('#nav_list');
   const navAdd = document.querySelector('#nav_add');
   const navContact = document.querySelector('#nav_contact');
@@ -24,3 +24,5 @@ export function setupNavigation() {
     list.classList.add('hidden');
   });
 }
+
+export default setupNavigation;
