@@ -16,6 +16,8 @@
     "eol-last": "off"
   },
   "ignorePatterns": [
-    "build/"
+    "build/",
+    "node_modules/",
+    "dist/"
   ]
 }
